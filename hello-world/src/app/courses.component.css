@@ -1,0 +1,9 @@
+.course-container {
+  background-color: slategray;
+  color: white;
+}
+
+.course-container h1 {
+  display: flex;
+  justify-content: center;
+}
