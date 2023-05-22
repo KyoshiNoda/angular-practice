@@ -4,4 +4,9 @@ import { Component } from '@angular/core';
   templateUrl: './signedIn.component.html',
   styleUrls: ['./signedIn.component.css'],
 })
-export class SignedInComponent {}
+export class SignedInComponent {
+  isLoggedOn: boolean = false;
+  loginHandler = () => {
+    this.isLoggedOn = !this.isLoggedOn;
+  };
+}

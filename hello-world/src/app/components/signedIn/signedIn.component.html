@@ -1,1 +1,5 @@
-<div>signedIn</div>
+<div>
+  <p *ngIf="!isLoggedOn; else logged">Sign In Please</p>
+  <ng-template #logged><p>Welcome!</p></ng-template>
+  <button (click)="loginHandler()">Sign In</button>
+</div>

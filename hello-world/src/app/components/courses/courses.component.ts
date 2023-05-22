@@ -5,13 +5,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./courses.component.css'],
 })
 export class CoursesComponent {
-  fontColor = 'pink';
-  isClicked = false;
-  courses1 = 'BCS230';
-  courses2 = 'BCS370';
-  courses3 = 'CSC211';
-  courses4 = 'MTH230';
-  courses5 = 'EGL250W';
+  fontColor: string = 'pink';
+  isClicked: boolean = false;
+  courses1: string = 'BCS230';
+  courses2: string = 'BCS370';
+  courses3: string = 'CSC211';
+  courses4: string = 'MTH230';
+  courses5: string = 'EGL250W';
 
   sayMessage = () => {
     alert('test click');
